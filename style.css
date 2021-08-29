@@ -2,10 +2,17 @@ h1{
     text-align: center;
     margin-top: 50px;
 }
-#result{
-    text-align: end;
-    padding-right: 20px;
+
+
+#calc-display{
+    display: flex;
+    justify-content: space-between;
 }
+#calc-display p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 #calc-container{
    
@@ -33,7 +40,7 @@ h1{
 }
 
 .calc-row .calc-btn{
-width: 60px;
+width: 78px;
 height: 50px;
 margin: 18px 5px 5px 5px;
 border-radius: 5px;

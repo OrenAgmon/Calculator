@@ -5,23 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Calculator</title>
     
 </head>
 <body>
-    <h1>Calculator</h1>
+ 
 
     <div class="calc" id="calc-container">
 
-        <div class="calc" id="calc-display"> <p id="result">0</p></div>
+        <div class="calc" id="calc-display">
+            <p id="operator-display"></p>
+             <p id="current-display">0</p>
+             
+            </div>
         <div class="calc" id="erase-container">
             <button class="calc-btn" id="ac-btn"> AC</button>
             <button class="calc-btn" id="del-btn">DEL</button>
         </div>
         <div class="calc calc-row" id="row1">
-            <button class="calc-num calc-btn" id="7-btn"> 7</button>
+            <button class="calc-num calc-btn" id="7-btn">7</button>
             <button class="calc-num calc-btn" id="8-btn">8</button>
-            <button class="calc-num calc-btn" id="9-btn"> 9</button>
+            <button class="calc-num calc-btn" id="9-btn">9</button>
             <button class="calc-op calc-btn" id="div-btn">%</button>
         </div>
         <div class="calc calc-row" id="row2">
@@ -37,8 +41,8 @@
             <button class="calc-op calc-btn" id="min-btn">-</button>
         </div>
         <div class="calc calc-row" id="row4">
-            <button class="calc-btn" id="dec-btn">.</button>
-            <button class="calc-btn" id="0-btn">0</button>
+            <button class="calc-btn calc-num" id="dec-btn">.</button>
+            <button class="calc-num calc-btn" id="0-btn">0</button>
             <button class="calc-btn" id="eq-btn">=</button>
             <button class="calc-op calc-btn" id="plus-btn">+</button>
         </div>
@@ -46,6 +50,6 @@
 
 
 
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="secondscript.js"></script>
 </body>
 </html>
